@@ -1,0 +1,58 @@
+/*.cell{
+    width: 100px;
+    height: 100px;
+    background-color:gray ;
+    border: 1px solid black;
+    cursor:pointer;
+}
+#parent{
+    width: 30%;
+    row-gap: 1rem;
+    display: grid;
+    grid-template-columns:2px ;
+}
+    */
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+      }
+      
+      h1 {
+        color: red;
+      }
+      
+      #parent {
+        width: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        gap: 5px;
+        margin: 20px auto;
+      }
+      
+      .cell {
+        width: 100px;
+        height: 100px;
+        background-color: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+        border: 2px solid black;
+        
+      }
+      
+      .cell:hover {
+        background-color: #bbb;
+      }
+      
+      #result {
+        font-size: 1.5rem;
+        color:red;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      
